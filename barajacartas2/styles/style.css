@@ -17,29 +17,32 @@ div {
 }
 
 
-/*TRES DE TREBOLES*/
+/*CUATRO DE PICAS*/
 
-.tres_treboles {
+.cuatro_picas {
     position: absolute;
-    left: 200px;
-    top: 110px;
+    left: 400px;
+    top: 50px;
+    transform: rotate(10deg);
     width: 200px;
     height: 300px;
     border: 1px solid black;
     border-radius: 10px;
     color: black;
-    transform: rotate(-30deg);
-
+    z-index: 3;
+    animation-name: accion_picas;
+    animation-duration: 3s;
+    animation-delay: 4s;
+    animation-iteration-count: 3s;
 }
 
-.cabezera_tres {
+.cabezera_picas {
     margin: 10px;
     height: 80px;
     width: 50px;
-    /*border: 1px solid black;*/    
 }
 
-.pie_tres {
+.pie_picas {
     margin: 10px;
     width: 50px;
     position: absolute;
@@ -48,32 +51,127 @@ div {
     transform: rotate(180deg);
 }
 
-.treboles_1_2 {
+.picas_1 {
     position: absolute;
-    left: 80px;
+    left: 40px;
     top: 40px;
     font-size: 50px;
 }
 
-.treboles_2_2 {
+.picas_2 {
     position: absolute;
-    left: 80px;
+    left: 105px;
+    top: 40px;
+    font-size: 50px;
+}
+
+.picas_3 {
+    position: absolute;
+    left: 45px;
     bottom: 40px;
     font-size: 50px;
     transform: rotate(180deg);
 }
 
-.treboles_3_2 {
+.picas_4 {
     position: absolute;
-    left: 80px;
-    top: 115px;
+    left: 110px;
+    bottom: 40px;
     font-size: 50px;
+    transform: rotate(180deg);
 }
 
+/*SIETE TREBOLES*/
 
-/*CUATRO PICA*/
+.siete_treboles {
+    position: absolute;
+    left: 200px;
+    top: 110px;
+    transform: rotate(-30deg);
+    width: 200px;
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 10px;
+    color: black;
+    z-index: 2;
+    animation-name: accion_treboles;
+    animation-duration: 3s;
+    animation-delay: 4s;
+    animation-iteration-count: 3s;
+}
 
-.cuatro_pica {
+.cabezera_treboles {
+    margin: 10px;
+    height: 80px;
+    width: 50px;    
+}
+
+.pie_treboles {
+    margin: 10px;
+    width: 50px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: rotate(180deg);
+}
+
+.treboles_1 {
+    position: absolute;
+    left: 40px;
+    top: 40px;
+    font-size: 40px;
+}
+
+.treboles_2 {
+    position: absolute;
+    right: 40px;
+    top: 40px;
+    font-size: 40px;
+    
+}
+
+.treboles_3 {
+    position: absolute;
+    left: 85px;
+    top: 80px;
+    font-size: 40px;
+    
+}
+
+.treboles_4 {
+    position: absolute;
+    right: 40px;
+    top: 120px;
+    font-size: 40px;
+   
+}
+.treboles_5 {
+    position: absolute;
+    left: 40px;
+    top: 120px;
+    font-size: 40px;
+    
+}
+
+.treboles_6 {
+    position: absolute;
+    left: 40px;
+    bottom: 40px;
+    font-size: 40px;
+    transform: rotate(180deg);
+}
+
+.treboles_7 {
+    position: absolute;
+    right: 40px;
+    bottom: 40px;
+    font-size: 40px;
+    transform: rotate(180deg);
+}
+
+/*SEIS DE CORAZONES*/
+
+.seis_corazones{
     position: absolute;
     left: 300px;
     top: 70px;
@@ -82,19 +180,23 @@ div {
     border: 1px solid black;
     border-radius: 10px;
     color: black;
-    transform: rotate(-10deg);
     z-index: 2;
-
+    transform: rotate(-10deg);
+    animation-name: accion_corazones;
+    animation-duration: 3s;
+    animation-delay: 4s;
+    animation-iteration-count: 3s;
 }
 
-.cabezera_cuatro {
+
+.cabezera_corazones {
     margin: 10px;
     height: 80px;
     width: 50px;
     color: red;  
 }
 
-.pie_cuatro {
+.pie_corazones {
     margin: 10px;
     width: 50px;
     position: absolute;
@@ -104,7 +206,7 @@ div {
     color: red;
 }
 
-.pica1 {
+.corazones_1{
     position: absolute;
     left: 50px;
     top: 50px;
@@ -112,127 +214,75 @@ div {
     color: red;
 }
 
-.pica2 {
+.corazones_2 {
     position: absolute;
-    left: 115px;
+    left: 100px;
     top: 50px;
     font-size: 50px;
     color: red;
 }
 
-.pica3 {
+.corazones_3 {
     position: absolute;
     left : 50px;
-    bottom: 50px;
+    top: 115px;
+    font-size: 50px;
+    color: red;
+}
+
+.corazones_4 {
+    position: absolute;
+    left : 100px;
+    top: 115px;
+    font-size: 50px;
+    color: red;
+}
+
+.corazones_5 {
+    position: absolute;
+    left : 50px;
+    bottom: 40px;
     font-size: 50px;
     transform: rotate(180deg);
     color: red;
 }
 
-.pica4 {
+.corazones_6 {
     position: absolute;
-    left : 115px;
-    bottom: 50px;
+    left : 100px;
+    bottom: 40px;
     font-size: 50px;
     transform: rotate(180deg);
     color: red;
 }
 
 
+/*AS DE DIAMANTES*/
 
-/*CUATRO TREBOLES*/
-
-.cinco_treboles {
-    position: absolute;
-    left: 400px;
-    top: 50px;
-    width: 200px;
-    height: 300px;
-    border: 1px solid black;
-    border-radius: 10px;
-    color: black;
-    transform: rotate(0deg);
-    z-index: 3;
-}
-
-.cabezera_cinco {
-    margin: 10px;
-    height: 80px;
-    width: 50px;    
-}
-
-.pie_cinco {
-    margin: 10px;
-    width: 50px;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    transform: rotate(180deg);
-}
-
-.treboles_1_4 {
-    position: absolute;
-    left: 40px;
-    top: 40px;
-    font-size: 50px;
-}
-
-.treboles_2_4 {
-    position: absolute;
-    right: 40px;
-    top: 40px;
-    font-size: 50px;
-    
-}
-
-.treboles_3_4 {
-    position: absolute;
-    left: 40px;
-    bottom: 40px;
-    font-size: 50px;
-    transform: rotate(180deg);
-}
-
-.treboles_4_4 {
-    position: absolute;
-    right: 40px;
-    bottom: 40px;
-    font-size: 50px;
-    transform: rotate(180deg);
-}
-
-.treboles_5_4 {
-    position: absolute;
-    right: 85px;
-    top: 110px;
-    font-size: 50px;
-}
-
-
-/*AS CORAZONES*/
-
-.as_corazones {
+.as_diamantes {
     position: absolute;
     left: 500px;
-    top: 50px;
+    top: 70px;
+    transform: rotate(30deg);
     width: 200px;
     height: 300px;
     border: 1px solid black;
     border-radius: 10px;
     color: red;
-    transform: rotate(10deg);
     z-index: 4;
-
+    animation-name: accion_diamantes;
+    animation-duration: 3s;
+    animation-delay: 4s;
+    animation-iteration-count: 3s;
 }
 
-.cabezera_as {
+.cabezera_diamantes {
     margin: 10px;
     height: 80px;
     width: 50px;
-    /*border: 1px solid black;*/    
 }
 
-.pie_cinco {
+.pie_diamantes {
     margin: 10px;
     width: 50px;
     position: absolute;
@@ -241,105 +291,63 @@ div {
     transform: rotate(180deg);
 }
 
-.corazon1 {
+.diamantes1 {
     position: absolute;
-    left: 40px;
-    left: 75px;
+    left: 65px;
     top: 95px;
     font-size: 80px;
+    color: red;  
 }
 
 
-/*SIETE TREBOLES*/
-
-.siete_treboles {
-    position: absolute;
-    left: 600px;
-    top: 70px;
-    width: 200px;
-    height: 300px;
-    border: 1px solid black;
-    border-radius: 10px;
-    color: black;
-    transform: rotate(30deg);
-    z-index: 5;
-
+@keyframes accion_picas {
+    0% {
+        left: 200px;
+        top: 110px;
+        transform: rotate(-30deg);
+    }
+    100% {
+        left: 400px;
+        top: 50px;
+        transform: rotate(10deg);
+    }
 }
 
-.cabezera_siete {
-    margin: 10px;
-    height: 80px;
-    width: 50px;    
+@keyframes accion_diamantes {
+    0% {
+        left: 200px;
+        top: 110px;
+        transform: rotate(-30deg);
+    }
+    100% {
+        left: 500px;
+        top: 70px;
+        transform: rotate(30deg);
+    }
 }
 
-.pie_siete {
-    margin: 10px;
-    width: 50px;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    transform: rotate(180deg);
+@keyframes accion_corazones {
+    0% {
+        left: 200px;
+        top: 110px;
+        transform: rotate(-30deg);
+    }
+    100% {
+        left: 300px;
+        top: 70px;
+        transform: rotate(-10deg);
+    }
 }
 
-.treboles_1_7 {
-    position: absolute;
-    left: 40px;
-    top: 40px;
-    font-size: 50px;
+@keyframes accion_treboles {
+    0% {
+        left: 200px;
+        top: 110px;
+        transform: rotate(-30deg);
+    }
+    100% {
+        left: 200px;
+        top: 110px;
+        transform: rotate(-30deg);
+    }
 }
-
-.treboles_2_7 {
-    position: absolute;
-    right: 40px;
-    top: 40px;
-    font-size: 50px;
-    
-}
-
-.treboles_3_7 {
-    position: absolute;
-    left: 85px;
-    top: 80px;
-    font-size: 50px;
-    
-}
-
-.treboles_4_7 {
-    position: absolute;
-    right: 40px;
-    top: 120px;
-    font-size: 50px;
-   
-}
-.treboles_5_7 {
-    position: absolute;
-    left: 40px;
-    top: 120px;
-    font-size: 50px;
-    
-}
-
-.treboles_6_7 {
-    position: absolute;
-    left: 40px;
-    bottom: 40px;
-    font-size: 50px;
-    transform: rotate(180deg);
-}
-
-.treboles_7_7 {
-    position: absolute;
-    right: 40px;
-    bottom: 40px;
-    font-size: 50px;
-    transform: rotate(180deg);
-}
-
-
-
-
-
-
-
-
-
